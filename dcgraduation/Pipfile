@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nltk = "*"
+numpy = ">=1.18.1"
+requests = "*"
+tensorflow = "==2.15.0"
+pillow = "*"
+"discord.py" = "*"
+imageai = "*"
+opencv-python = ">=4.1.2"
+cython = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+flask = "*"
+jinja2 = "*"
+flask-sqlalchemy = "*"
+sqlalchemy = "*"
+speechrecognition = "*"
+pyaudio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
